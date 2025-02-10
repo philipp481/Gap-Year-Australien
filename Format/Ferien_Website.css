@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  background-color: #2e2313;
+}
+
+.Text {
+font-family: "Funnel Sans", serif;  /* Schriftart */
+}
+
+.Logo {     /* Logo im Header */
+  max-height: 100px;
+  max-width: auto;
+}
+
+.header {     /* Header*/
+    background-color: #2e2313;
+    padding: 15.2px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+
+  .header .logo {
+    color: white;
+    font-size: 0px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .header .navigation {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .header .navigation a  {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    font-family: "Funnel Sans", serif;
+
+    background-color: #2e2313;
+    color: #ffffff;
+    margin: auto;
+    position: relative;
+    padding: 0 15px;
+  }
+
+  a:hover {     /* Links verändern Farbe */
+    color: rgb(199, 154, 59);
+  }
+
+
+  *,
+*::before,
+*::after {      /* Links im Header werden unterstrichen */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header .navigation a::after{
+  content: '';
+  position: absolute;
+  background-color: #ffffff;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -8px;
+  transition: all 0.4s ease;
+}
+
+.header .navigation a:hover::after {
+  width: 100%;
+}
+
+
+
+  .container {        /* Erstes Bild */
+    text-align: center;
+    color: #ffffff;
+    width: auto;
+    height: 30%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/15453729/pexels-photo-15453729/free-photo-of-hav-by-australien-sydney.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  h1 {  	    /* Überschrift */
+    font-family: "Funnel Sans", serif;
+    font-weight: 800;
+    font-size: 90px;
+    color: #ffffff;
+  }
+
+  div.first {     /* Block hinter Überschrift */
+    background:rgba(33, 35, 37, 0.4);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+  }
+
+  div.sec {
+    background: rgba(33, 35, 37, 0.4);
+  }
+  
+
+  p {     /* Text unter Überschrift */
+    max-width: 600px;
+    line-height: 1.5;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Funnel Sans", serif;
+  }
+  
+  a {     /* "Learn more" Link zu mehr Informationen */
+    font-family: "Funnel Sans", serif;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2e2313;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .blank {      /* Blöcke zwischen Bildern */
+    width: 100%;
+    min-height: 30vh;
+    background-color: #ffffff;
+  }
+
+  .blank_sec {      /* Blöcke zwischen Bildern */
+    width: 100%;
+    min-height: 30vh;
+    background-color: #1d1d1d;
+  }
+
+  footer {
+    font-family: "Funnel Sans", serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 40px;
+    padding-top: 50px;
+  }
+
+  table {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    max-width: auto;
+    max-height: auto;
+  }
+
+  th {
+    padding: 30px;
+    vertical-align: top;
+  }
+
+  .second {     /* Zweites Bild */
+    background-image:url(https://images.pexels.com/photos/3184541/pexels-photo-3184541.jpeg);
+    background-attachment: fixed;
+    width: auto;
+    height: 100px;
+  }
+  
+  h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+  }
+  
+  .card > a {
+    margin-bottom: 2em;
+  }
+  
+  .item {
+    display: flex;
+    max-width: 320px;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+  }
+  
+  .img {
+    width: 90%;
+    height: 200px;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: .3em; 
+  }
+  
+  .img-first {
+    background-image: url(https://images.pexels.com/photos/783683/pexels-photo-783683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    border: solid, 2px, #1d1d1d;
+  }
+  
+  .img-second {
+    background-image: url(https://images.pexels.com/photos/29954395/pexels-photo-29954395/free-photo-of-dynamische-surf-action-in-den-wellen-der-malediven.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    border: solid, 2px, #1d1d1d;
+  }
+  
+  .img-third {
+    background-image: url(https://images.pexels.com/photos/26988531/pexels-photo-26988531/free-photo-of-natur-strand-sand-ozean.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    border: solid, 2px, #1d1d1d;
+  }
+
+  .img-fourth {
+    background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/4754/production/_128406281_gettyimages-910425166.jpg);
+    border: solid, 2px, #1d1d1d;
+  }
+  
+  .second {
+    flex-direction: row;
+    gap: 1.6em;
+  }
+
+  .card p {
+    font-family: "Funnel Sans", serif;
+    color: rgb(110, 110, 110);
+  }
+
+  .card h3 {
+    font-family: "Funnel Sans", serif;
+    color: #000000;
+  }
+  
+
+
+
+  
+

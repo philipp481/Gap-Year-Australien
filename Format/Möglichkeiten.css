@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+:root {
+    background-color: #575757;
+}
+
+.container {        /* Erstes Bild */
+    text-align: center;
+    color: #ffffff;
+    width: auto;
+    height: 30%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://wayers.com/wp-content/uploads/pixxio/ZIELL%C3%84NDER/Australien/vom-Team/2022-Aussi-Abenteuer/Ozintro_Bondi_Group_Landscape_Hires-1400x920-c-center.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+
+  h1 {  	    /* Überschrift */
+    font-family: "Funnel Sans", serif;
+    font-weight: 800;
+    font-size: 90px;
+    color: #ffffff;
+  }
+
+  div.first {     /* Block hinter Überschrift */
+    background:rgba(33, 35, 37, 0.8);
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: justify;
+  }
+
+  div.Text {     /* Block hinter Text*/
+    background:rgba(33, 35, 37, 0.6);
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+  }
+  
+
+  .blank {     
+    width: 100%;
+    min-height: auto;
+    background-color: #ffffff;
+    padding: 40px;
+  }
+
+  .Einführungstext {
+    max-width: 100%;
+    max-height: auto;
+    font-family: "Anton", serif;
+    font-size: 70px;
+    text-align: center;
+  }
+
+
+  .second {     /* Zweites Bild */
+    background-image:url(https://images.unsplash.com/photo-1515861461225-1488dfdaf0a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+  }
+
+  ol {
+    font-size: 30px;
+    margin-left: 60px;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .Voraussetzungen {
+    font-size: 40px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 300px;
+  }
+
+
+  th {
+    max-width: 1000px;
+    max-height: auto;
+    align-content: center;
+  }
+
+  .Workandtravel-table {
+    font-family: "Funnel Sans", serif;
+    background-color: rgb(255, 255, 255, 0.8);
+    border: solid, 3px, #ffffff;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: auto;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.WorkandTravel {
+  width: 500px;
+  height: auto;
+  margin-left: 50px;
+  border: solid, 3px, #ffffff;
+  border-radius: 10px;
+}
+
+  .AuPair-table {
+  font-family: "Funnel Sans", serif;
+  background-color: rgb(255, 255, 255, 0.8);
+  border: solid, 3px, #ffffff;
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: auto;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.AuPair {
+  width: 500px;
+  height: auto;
+  margin-left: 50px;
+  border: solid, 3px, #ffffff;
+  border-radius: 10px;
+}
+
+
+
+
+.Freiwilligenarbeit-table {
+  font-family: "Funnel Sans", serif;
+  background-color: rgb(255, 255, 255, 0.8);
+  border: solid, 3px, #ffffff;
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: auto;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.Freiwilligenarbeit {
+  width: 500px;
+  height: auto;
+  margin-left: 50px;
+  border: solid, 3px, #ffffff;
+  border-radius: 10px;
+}
+
+
+p {
+  max-width: 100%;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 45px;
+  padding-left: 20px;
+}
+
+
+.Schlusstext {
+  max-width: 100%;
+  max-height: 30px;
+  font-family: "Anton", serif;
+  font-size: 60px;
+  text-align: left;
+}
+  
+.blank-end {     
+  width: 100%;
+  min-height: auto;
+  background-color: #ffffff;
+  padding-bottom: 70px;
+}
+
+
+
+  
+    
+  
+
+ 
+
+ 
+   
+  
